@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body{
+			background-image: url(bg1.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		*{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+			font-family: sans-serif;
+		}
+		header{
+			width: 100%;
+			height: 100vh;
+			background: url(pizza2.png);
+			background-repeat: no-repeat;
+			background-position: bottom right;
+			position: relative;
+		}
+		nav{
+			width: 100%;
+			height: 70%;
+			padding: 0px 70px;
+			padding-top: 20px;
+			color: black;
+			display: flex;
+			justify-content: space-between;
+			
+
+		}
+		.logo{
+			font-weight: bold;
+			font-size: 2em;
+			letter-spacing: 2px;
+		}
+		.logo span{
+			color: brown;
+		}
+		.menu a{
+			text-decoration: none;
+			color: black;
+			padding: 10px 20px;
+		}
+		.menu a:hover{
+			background-color: brown;
+			border-radius: 10px;
+			color: white;
+		}
+		.menu a:last-child{
+			background: brown;
+			color: white;
+			border-radius: 8px;
+		}
+		.h-text{
+			position: absolute;
+			top: 30%;
+			left: 5%;
+			padding: 15px;
+		}
+		.h-text p{
+			color: #262626;
+			letter-spacing: 3px;
+			font-weight: bold;
+		}
+		.h-text h1{
+			font-size: 4em;
+			line-height: 1.5em;
+		}
+		.h-text h1 span{
+			color: brown;
+		}
+		.h-text h2{
+			font-size: 4em;
+			line-height: 0.5em;
+		}
+		#order{
+			text-decoration: none;
+			color: white;
+			background: brown;
+			border-radius: 8px;
+			padding: 10px 35px;
+			line-height: 5.5em;
+		}
+		#order:hover{
+			/*background-color: lightcoral;*/
+			color: black;
+			border-width: 5px;
+			border-color: yellow;
+		}
+		/*#dis{
+			text-decoration: none;
+			color: white;
+			background: brown;
+			border-radius: 8px;
+			padding: 10px 30px;
+			line-height: 4.5em;
+		}*/
+	</style>
+	<title> LANDING PAGE</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="logo"><span>Pi</span>zzahat</div>
+			<div class="menu">
+				<a href="#">HOME</a>
+				<a href="#">FOOD</a>
+			    <a href="#">OFFER</a>
+			    <a href="#">YOUR ORDER</a>
+			    <a href="#">DELIVERY</a>
+			</div>
+		</nav>
+		<div class="h-text">
+			<p> FREE HOME DELIVERY</p>
+			<h1> Quality F<span>oo</span>ds</h1>
+			<h2> Pizza of the week</h2>
+			<a href="#" id="order">Order Now!!</a>
+			<!--<a href="#" id="dis">25% off Hurry!!</a>-->	
+	</div>
+</header>
+</body>
+</html>
